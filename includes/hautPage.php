@@ -13,6 +13,8 @@
 		<link rel="stylesheet" media="screen" href="bootstrap/css/bootstrap.min.css">
 		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/jquery.diaporama.js"></script>
+		<script type="text/javascript" src="js/script.js"></script>
 		<link rel="stylesheet" media="screen" href="style/design.css">
 	</head>
 	<?php include("modeles/connexion_BDD.php"); include("modeles/fonctions_public.php"); ?>

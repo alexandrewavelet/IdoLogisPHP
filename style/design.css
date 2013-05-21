@@ -54,3 +54,14 @@ body{
 .pull-left{
 	margin-right: 15px;
 }
+
+.diaporama li{
+	list-style-type:none;
+	overflow:hidden;
+	position:absolute
+}
+
+.diaporama ul{
+	margin: 0;
+	padding: 0;
+}

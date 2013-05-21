@@ -34,4 +34,10 @@ function rechercherBiens($commune,$nbChambres,$prixMin,$prixMax){
 	return $res;
 }
 
+function getPhotosDiaporama(){
+	$req = 'SELECT IdBien, PhotoBien FROM bien WHERE PhotoBien NOT LIKE "defaut.jpg"';
+	$res = mysql_query($req);
+	return $res;
+}
+
 ?>
